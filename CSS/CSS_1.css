@@ -1,0 +1,52 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: left;
+    background-color: lightslategray;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border:  1px double aquamarine;
+}
+.Contact {
+    color: aquamarine;
+    border: 8px double whitesmoke;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: teal;
+}
+.container {
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 8px double whitesmoke;
+    background-color: teal;
+    border-radius: 7px;
+    background: url(../Images/spacers_choice.jpg) center;
+
+}
+.form-menu {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    border: 1px thin whitesmoke;
+    border-radius: 7px;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgba(255, 183, 31, 1);
+    font-size: large;
+    text-decoration: underline overline teal 5px;
+    background-color: rgba(110, 106, 114, 0.5);
+}
+#fname, #lname, #email, #msg {
+    color: darkgoldenrod;
+    background-color: darkslategray;
+    font-weight: bold;
+    font-size: large;
+}
+
