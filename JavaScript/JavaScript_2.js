@@ -1,7 +1,9 @@
 function validateForm() {
-    var x = document.forms["myForm"]["fname"]["lname"]["email"]["msg"].value;
-    if (x == "") {
-        alert("Must be filled out");
-        return false;
+    var inputs = document.forms[0].getElementsByTagName("input");
+    for(var i = 0; i<inputs.length; i++) {
+        if (inputs[i].value === "" && inputs[i].id != "msg") {
+        alert (`${inputs[i].id} must have a value`)
+        return;
+        }
     }
 }
